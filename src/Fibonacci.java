@@ -4,13 +4,15 @@ public class  Fibonacci {
 
     public static void main(String[] args) {
         // Compute the nth number
-        System.out.println("Enter the value of the position you looking for");
+        System.out.println("Enter the value of the position you looking for: ");
         Scanner input = new Scanner(System.in);
         int position = input.nextInt();
 
         // Fibonacci computation
         int value = fibo(position);
 
+        // Printing out the value of the position provided
+        System.out.println("The value of the Fibonacci Sequence at position " + position + " is: \n" +  value );
 
     }
 
